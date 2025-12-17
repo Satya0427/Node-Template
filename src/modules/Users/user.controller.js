@@ -44,8 +44,44 @@ const userCreationApiHandler = async_error_handler(async (req, res, _) => {
 
 // GET USERS LIST API
 const userListAPIHandler = async_error_handler(async (req, res) => {
-    const data = await USERS_SCHEMA.find();
-    res.status(200).json(apiDataResponse(200, `${MESSAGES.SUCCESS}`, data));
+
+    const {skip_records} = req.body;
+
+    const result = await USERS_SCHEMA.aggregate([
+        // {
+        //     $match: {
+        //         $or: [
+        //             { name: { $regex: search_key, $options: "" } },
+        //             { email: { $regex: search_key, $options: "" } }
+        //         ]
+        //     }
+        // },
+        {
+            $facet: {
+                data: [
+                    { $sort: { name: 1 } },
+                    { $skip: skip_records },
+                    { $limit: 20 },
+                    { $project: { 
+                        password: 0,
+                        _id: 0,
+                        __v:0
+                     } }
+                ],
+                pagination: [
+                    { $count: "total_records" },
+                    
+                ],
+            }
+        }
+    ]);
+    const res_data = {
+        emp_data: result[0].data,
+        pagination:{
+            total_records:result[0].pagination[0].total_records
+        }
+    }
+    res.status(200).json(apiDataResponse(200, `${MESSAGES.SUCCESS}`, res_data));
 })
 
 
