@@ -1,0 +1,72 @@
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T11:03:28.402Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:03:28.432Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:03:28.866Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T11:08:18.040Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:08:18.080Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:08:18.262Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:08:18.402Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T11:08:40.645Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:08:40.926Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T11:08:41.094Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T11:13:58.141Z"}
+{"error":{"expiredAt":"2025-12-17T09:59:37.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:31:29.244Z"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:34:20.217Z"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:41:58.140Z"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:42:28.895Z"}
+{"error":{"expiredAt":"2025-12-17T11:43:25.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:49:00.675Z"}
+{"error":{"expiredAt":"2025-12-17T11:50:08.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:52:24.991Z"}
+{"error":{"expiredAt":"2025-12-17T11:50:08.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:54:20.710Z"}
+{"error":{"expiredAt":"2025-12-17T11:50:08.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T11:54:39.034Z"}
+{"level":"error","message":{"msg":"Duplicate Phone number","sts":404},"timestamp":"2025-12-17T11:54:49.602Z"}
+{"error":{"expiredAt":"2025-12-17T11:55:44.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:00:22.249Z"}
+{"level":"error","message":{"msg":"Internal Server error","sts":500},"timestamp":"2025-12-17T12:00:31.901Z"}
+{"error":{"expiredAt":"2025-12-17T12:01:27.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:05:06.672Z"}
+{"error":{"expiredAt":"2025-12-17T11:32:29.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:06:33.676Z"}
+{"error":{"expiredAt":"2025-12-17T12:07:34.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:07:50.236Z"}
+{"error":{"expiredAt":"2025-12-17T12:08:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:13:00.571Z"}
+{"error":{"expiredAt":"2025-12-17T12:14:00.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:14:12.379Z"}
+{"error":{"expiredAt":"2025-12-17T12:15:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:15:15.491Z"}
+{"error":{"expiredAt":"2025-12-17T12:16:16.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:16:54.102Z"}
+{"error":{"expiredAt":"2025-12-17T12:17:54.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:22:44.640Z"}
+{"error":{"expiredAt":"2025-12-17T12:23:44.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:28:45.965Z"}
+{"error":{"expiredAt":"2025-12-17T12:29:46.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:30:24.539Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T12:45:28.478Z"}
+{"error":{"expiredAt":"2025-12-17T12:06:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:57:29.504Z"}
+{"level":"error","message":{"msg":"Internal Server error","sts":500},"timestamp":"2025-12-17T12:57:43.236Z"}
+{"error":{"expiredAt":"2025-12-17T12:58:38.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T12:58:39.397Z"}
+{"error":{"expiredAt":"2025-12-17T14:29:45.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-17T14:37:35.505Z"}
+{"level":"error","message":{"msg":"Internal Server error","sts":500},"timestamp":"2025-12-17T14:37:36.288Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-17T15:41:50.494Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:50.943Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:51.274Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:51.482Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:51.733Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:52.229Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:53.155Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T15:41:54.861Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-17T16:37:15.460Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T09:55:50.706Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T10:17:44.149Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T10:20:20.387Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T10:55:49.525Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T10:56:24.511Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T11:25:30.382Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T11:56:20.785Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:20.995Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:21.108Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:21.255Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:21.541Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:22.087Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:23.079Z"}
+{"level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-10022.c74.us-east-1-4.ec2.cloud.redislabs.com","timestamp":"2025-12-18T11:56:24.758Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T12:25:42.640Z"}
+{"error":{"expiredAt":"2025-12-18T06:48:02.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T12:31:18.324Z"}
+{"error":{"expiredAt":"2025-12-18T06:48:02.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T12:31:18.353Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T12:42:20.672Z"}
+{"error":{"expiredAt":"2025-12-18T12:32:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T12:42:25.953Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T12:45:53.304Z"}
+{"error":{"expiredAt":"2025-12-18T12:43:26.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T12:45:57.775Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T12:56:28.863Z"}
+{"error":{"expiredAt":"2025-12-18T12:46:58.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T12:56:33.491Z"}
+{"level":"error","message":"Redis Client Error: read ECONNRESET","timestamp":"2025-12-18T13:08:28.285Z"}
+{"error":{"expiredAt":"2025-12-18T12:57:33.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error verifying access-token JWT","timestamp":"2025-12-18T13:08:33.049Z"}
