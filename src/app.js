@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: true }));  // This is used for to underst
 app.use(cors({
     origin: [
         "http://localhost:4201",
+        "http://localhost:4200",
         "http://192.168.0.8:4201"
     ],
     allowedHeaders: ["Content-Type", "Authorization"],
